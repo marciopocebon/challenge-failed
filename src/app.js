@@ -17,7 +17,7 @@ app.post('/projects', (req, res) => {
 
   projects.push(project);
 
-  return res.json(project);
+  return res.json([]);
 });
 
 module.exports = app;
